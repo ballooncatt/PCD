@@ -1,0 +1,29 @@
+common:
+  user_dir: ???
+
+generation:
+  beam: 50
+  max_len_a: 1.0
+  max_len_b: 0
+  lenpen: 1.0
+  lm_weight: 0
+
+common_eval:
+  results_path: ???
+  path: ???
+
+dataset:
+  max_tokens: 500
+  gen_subset: ???
+  num_workers: 1
+  batch_size: 15
+
+# task:
+#   modalities: ["video"]
+
+
+override:
+  noise_prob: ???
+  noise_snr: ???
+  noise_wav: ???
+  modalities: ???
